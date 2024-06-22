@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="jtoapantaExamen.Views.Resumen"
+             Title="Resumen"
+             BackgroundColor="Black">
+    <VerticalStackLayout>
+        <Label x:Name="lblNombre"
+               HorizontalOptions="Start"
+               FontSize="20"
+               TextColor="red"
+               FontAttributes="Bold"/>
+        <Label 
+            Text="Resumen"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Grid RowSpacing="15">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label x:Name="lbNombre"
+             Text="Nombre"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="0"
+             Grid.Column="0"/>
+            <Label x:Name="lbNombre1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="0"
+             Grid.Column="1"/>
+            
+            <Label x:Name="lbApellido"
+             Text="Apellido"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="1"
+             Grid.Column="0"/>
+            <Label x:Name="lbApellido1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="1"
+             Grid.Column="1"/>
+            
+            <Label x:Name="lbEdad"
+             Text="Edad"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="2"
+             Grid.Column="0"/>
+            <Label x:Name="lbEdad1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="2"
+             Grid.Column="1"/>
+            
+            <Label x:Name="lbFecha"
+             Text="Fecha"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="3"
+             Grid.Column="0"/>
+            <Label x:Name="lbFecha1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="3"
+             Grid.Column="1"/>
+            
+            <Label x:Name="lbCiudad"
+             Text="Ciudad"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="4"
+             Grid.Column="0"/>
+            <Label x:Name="lbCiudad1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="4"
+             Grid.Column="1"/>
+
+            <Label x:Name="lbPais"
+             Text="Pais"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="5"
+             Grid.Column="0"/>
+            <Label x:Name="lbPais1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="5"
+             Grid.Column="1"/>
+            
+            <Label x:Name="lbMonto"
+             Text="Monto Inicial"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="6"
+             Grid.Column="0"/>
+            <Label x:Name="lbMonto1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="6"
+             Grid.Column="1"/>
+            
+            <Label x:Name="lbCuota"
+             Text="Cuota"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="7"
+             Grid.Column="0"/>
+            <Label x:Name="lbCuota1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="7"
+             Grid.Column="1"/>
+
+            <Label x:Name="lbTotal"
+             Text="Total"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="8"
+             Grid.Column="0"/>
+            <Label x:Name="lbTotal1"
+             FontSize="15"
+             HorizontalTextAlignment="Start"
+             TextColor="DarkRed"
+             Grid.Row="8"
+             Grid.Column="1"/>
+
+
+
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>
